@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact details</h1>
+    <p>Address: 0420RP</p>
+    <p>Number: 06 04030201</p>
+    <p>Email: myemail@gmail.com</p>
+    <hr>
+    <!-- form is used to collect user input -->
+    <form action="mailto:someone@gmail.com" method="post" enctype="text/plain">
+        <!-- label tag defines a label for many form elements -->
+        <label>Your name:</label>
+        <!-- type="text" Displays a single-line text input field -->
+        <input type="text" name="yourname"><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail"><br>
+        <label>Your message:</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <!-- type="submit" defines a button for submitting the form data to a form-handler -->
+        <input type="submit">
+    </form>
+</body>
+</html>
